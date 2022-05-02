@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://innthomas.github.io/my-team-page/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://github.com/innthomas/my-team-page">
       Solution
     </a>
     <span> | </span>
@@ -36,22 +36,26 @@
 
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
+![screenshot](./team.png)
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
 - Where can I see your demo?
+Check demo above
 - What was your experience?
+I was able to improve on my css skills
 - What have you learned/improved?
+CSS grid
 - Your wisdom? :)
 
 ### Built With
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
-- [React](https://reactjs.org/)
+<!-- - [React](https://reactjs.org/)
 - [Vue.js](https://vuejs.org/)
-- [Tailwind](https://tailwindcss.com/)
+- [Tailwind](https://tailwindcss.com/) -->
+vanilla html and css
 
 ## Features
 
@@ -70,7 +74,7 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- Website [your-website.com](https://{your-web-site-link})
-- GitHub [@your-username](https://{github.com/your-usermame})
-- Twitter [@your-twitter](https://{twitter.com/your-username})
+- Website [innthomas](https://innthomas.github.io)
+- GitHub [@innthomas](https://innthomas)
+- Twitter [@innthomas](https://twitter.com/innthomas)
 # my-team-page
