@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,700;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,700;1,100;1,200;1,300;1,400&display=swap');
+
+/* reset */
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+
+}
+
+.container{
+    max-width: 100%;
+    height: 100%;
+    margin: 2rem 4rem;
+    padding: 2rem 4rem;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.text-container{
+    width: 100%;
+}
+
+.container .flex .creative-crew h1{
+    font-family: "PT Serif", serif;
+    font-weight: 700, Bold;
+    font-size: 2.25rem;
+    line-height: 2.986rem;
+    letter-spacing: -4.5%;
+
+}
+.container .flex .who-we-are h2{
+    margin-bottom: 1rem;
+}
+.container .flex .who-we-are p{
+    font-family: "Poppins", sans-serif;
+    width: 438px;
+    height: 87px;
+    padding-right: 5rem;
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 2rem;
+}
+.img-box{
+    width: 335.75px;
+    height: 449px;
+    position: relative;
+
+}
+.img-box img{
+    width: 80%;
+    height: 80%;
+}
+.img-box .role{
+    position: absolute;
+    left: 232px;
+    top: 49px;
+    transform: rotate(90deg);
+    white-space: nowrap;
+    font-family: "PT Serif", serif;
+    font-weight: 400,regular;
+    font-size: 10px;
+    line-height: 13.25px;
+    color: #000000;
+}
+.img-box .name{
+    font-family: "Poppins", sans-serif;
+    font-weight: Semi-Bold;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
+
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  
+
+}
+
+.img-box:nth-child(3n+2){
+   margin-top: 7rem;
+    
+}
+.image-container{
+    width: 100%;
+    margin: 0 auto;
+    padding-right: 0;
+}
+.image-container .img-box{
+    /* width: 100%; */
+    padding: 0;
+}
+
+.created-by{
+    text-align: center;
+    opacity: 50%;
+}
+
+
+
+/* media query */
+@media (max-width: 450px) {
+    .container{
+        margin: 0;
+        padding: 0;
+    }
+  .flex{
+      margin: 2rem 1rem;
+
+    flex-direction: column ;
+    
+   
+  }
+
+  .container .flex .creative-crew h1{
+      margin-bottom: 2rem;
+      white-space: nowrap;
+  }
+  .container .flex .who-we-are p{
+        width: 333px;
+        height: 87px;
+        font-size: 14px;
+        line-height: 21px;
+        text-align: left;
+        padding-right: 4rem;
+        white-space: wrap;
+
+  }
+  .grid{
+      margin: 1rem 1rem;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+  }
+    .img-box{
+        width: 177.42px;
+        height: 283.69px;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .img-box .role{
+        position: absolute;
+        left: 232px;
+        top: 49px;
+        transform: rotate(90deg);
+        white-space: nowrap;
+        font-family: "PT Serif", serif;
+        font-weight: 400,regular;
+        font-size: 10px;
+        line-height: 13.25px;
+        color: #000000;
+    }
+    .img-box .name{
+        font-family: "Poppins", sans-serif;
+        font-weight: Semi-Bold;
+        font-size: 18px;
+        line-height: 27px;
+        color: #000000;
+    
+    }
+   
+     .img-box:nth-child(3n+ 2){
+        margin-top: 0rem;  
+     }
+
+     .img-box:nth-child(2n+ 2){
+        margin-top: 3rem;  
+     }
+
+     
+
+
+}
